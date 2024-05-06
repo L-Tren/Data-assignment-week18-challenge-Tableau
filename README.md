@@ -29,13 +29,13 @@ The average duration in minutes of the bike usage was calculated by manipulating
 
   DATEDIFF('minute',[Started At,[Ended At])"
 
-The trend show a peak in average time duration between May - August, aligned with the best weather in the New York area. Interestingly the average range was only between 8.172 (February) and 11.588 (May) minutes, further analysis would be intriguing to determine if there are any outliers in this data, however the overarching trend does make sense and is aligned with previously analysis.
+The trend shows a peak in average time duration between May - August, aligned with the best weather in the New York area. Interestingly the average range was only between 8.172 (February) and 11.588 (May) minutes, further analysis would be intriguing to determine if there are any outliers in this data, however the overarching trend does make sense and is aligned with previously analysis.
 
 ## Map
 
 ![Map Analysis](Dashboard_Map_Analysis_Start.PNG)
 
-An interactive map of the data shows the starting bike stations (based on member or casual), and is dynamic based on months. I would suggest a rigurous audit of coordinate data would be needed for more analysis, as the data cordinates do not align with the street names after further analysis.
+An interactive map of the data shows the starting bike stations (based on member or casual), and is dynamic based on months. I would suggest a rigurous audit of coordinate data would be needed for more analysis, as the data cordinates do not align with the street names after further analysis despite the latitude and longitude being unaltered from the source csv file. 
 
 
 # References
