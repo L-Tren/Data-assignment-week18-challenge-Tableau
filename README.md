@@ -35,8 +35,7 @@ The trend shows a peak in average time duration between May - August, aligned wi
 
 ![Map Analysis](Dashboard_Map_Analysis_Start.PNG)
 
-An interactive map of the data shows the starting bike stations (based on member or casual), and is dynamic based on months. I would suggest a rigurous audit of coordinate data would be needed for more analysis, as the data cordinates do not align with the street names after further analysis despite the latitude and longitude being unaltered from the source csv file. 
-
+An interactive map of the data shows the starting bike stations (based on member or casual), and is dynamically able to be filtered based on months. The majority of the stations are in south western portion of Jersey City, along the picturesque Hudson River overlooking the Manhattan skyline. This makes sense given the prior analysis indicates that the primary users of the bike stations are likely tourists in the greater NYC area. I would suggest the map could be used to expand to other geographic locations, and perhaps Manhattan Island itself to further capitalise on the tourist market in the bustling city.
 
 # References
 Citi Bike. (2024). System Data. Citi Bike NYC. Retrieved May 5, 2024, from https://s3.amazonaws.com/tripdata/index.html
